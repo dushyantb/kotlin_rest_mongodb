@@ -8,9 +8,4 @@ import org.springframework.data.mongodb.core.mapping.Document
  */
 
 @Document
-class Notes {
-    @Id
-    var id: String? = null
-    var title: String? = ""
-    var details: String? = ""
-}
+data class Notes (@Id var id: String? = null, var title: String? = "", var details: String? = "")
