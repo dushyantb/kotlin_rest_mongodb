@@ -5,7 +5,7 @@ RESTful API Implementation using Kotlin, Spring Boot, Spring Data and MongoDB
 - [Toolset](#toolset)
 - [Configure](#configure)
 - [Start Server](#start-server)
-- [Use APIs](#use-apis)
+- [Usage](#usage)
 
 
 ### Toolset
@@ -19,7 +19,7 @@ RESTful API Implementation using Kotlin, Spring Boot, Spring Data and MongoDB
 ### Start Server
 - Run the main method from "KotlinRestMongodbApplication.kt" or run the command "./gradlew bootRun"
 
-### Use APIs
+### Usage
 - APIs are available for CRUD operations
 - [GET] /notes: Get all the notes from DB
 - [POST] /notes: Create a new note and store data in DB
